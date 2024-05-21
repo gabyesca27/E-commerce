@@ -1,10 +1,9 @@
 .body-background {
-    background-color: var(--color-1);
-    min-height: 100vh;
-    height: 100%;
+    background-color: white
+    /*var(--color-1);*/
 }
 
-.svg-decoration {
+/*.svg-decoration {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -40,4 +39,4 @@
     place-content: center;
     font-family: var(--font-2);
     color: white;
-}
+}*/

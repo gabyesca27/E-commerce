@@ -21,3 +21,59 @@
     font-family: var(--font-1);
     font-weight: 400;
 }
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Estilos para la lista */
+.items ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Estilos para los elementos de la lista */
+.items li {
+    margin: 0;
+}
+
+/* Estilos para los enlaces */
+.items a {
+    display: block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    border: 2px solid #e2e6ea;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+/* Estilos para los enlaces cuando se pasa el ratón por encima */
+.items a:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para las imágenes */
+.items a img {
+    width: 100%;
+    height: 100px;
+
+/* Estilos para el texto */
+.items a span {
+    display: block;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+}
