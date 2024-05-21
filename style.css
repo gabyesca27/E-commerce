@@ -22,6 +22,11 @@
     font-weight: 400;
 }
 
+.box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
 .items {
     display: flex;
     flex-wrap: wrap;
