@@ -6,11 +6,11 @@
 
 
 :root {
-    --color-1: #3d0e61;
-    --color-2: #4e148c;
-    --color-3: #613dc1;
+    --color-1: #FFE600;
+    --color-2: #FFE600;
+    --color-3: #FFE600;
     --color-4: #93caf6;
-    --color-nav: #594d99;
+    --color-nav: #ffe600;;
     --font-1: "Roboto";
     --font-2: "Reddit Sans";
 }
@@ -22,11 +22,30 @@
     font-weight: 400;
 }
 
+
 .box {
     display: flex;
-    flex-wrap: wrap;
-  }
-  
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Separación entre filas */
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Separación entre imágenes en cada fila */
+}
+
+.row a {
+    display: block; /* Asegura que cada enlace ocupe el espacio necesario */
+}
+
+.row img {
+    width: 150px; /* Establece un ancho uniforme para todas las imágenes */
+    height: auto; /* Mantiene la relación de aspecto */
+    display: block; /* Asegura que las imágenes se traten como elementos de bloque */
+}
+
 .items {
     display: flex;
     flex-wrap: wrap;
@@ -75,7 +94,7 @@
 .items a img {
     width: 100%;
     height: 100px;
-
+}
 /* Estilos para el texto */
 .items a span {
     display: block;
