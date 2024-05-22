@@ -25,9 +25,8 @@
 
 .box {
     display: flex;
-    flex-direction: column;
+    flex-wrap: nowrap;
     align-items: center;
-    gap: 20px; /* Separación entre filas */
 }
 
 .row {
@@ -60,7 +59,7 @@
     padding: 0;
     margin: 0;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     gap: 10px;
     justify-content: center;
 }
