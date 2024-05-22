@@ -25,14 +25,14 @@
 
 .box {
     display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
+   /* flex-wrap: nowrap;
+    align-items: center;*/
 }
 
 .row {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Separación entre imágenes en cada fila */
+    gap: 10px; /* Separación entre imágenes en cada fila */
 }
 
 .row a {
@@ -40,7 +40,7 @@
 }
 
 .row img {
-    width: 150px; /* Establece un ancho uniforme para todas las imágenes */
+    width: 250px; /* Establece un ancho uniforme para todas las imágenes */
     height: auto; /* Mantiene la relación de aspecto */
     display: block; /* Asegura que las imágenes se traten como elementos de bloque */
 }
