@@ -5,7 +5,7 @@
 @import url(./assets/css/sections.css);
 
 
-:root {
+/*:root {
     --color-1: #FFE600;
     --color-2: #FFE600;
     --color-3: #FFE600;
@@ -14,7 +14,7 @@
     --font-1: "Roboto";
     --font-2: "Reddit Sans";
 }
-
+*/
 * {
     margin: 0;
     padding: 0;
