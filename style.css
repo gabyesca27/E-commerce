@@ -25,6 +25,7 @@
 
 .box {
     display: flex;
+    align-items: center;
    /* flex-wrap: nowrap;
     align-items: center;*/
 }
@@ -97,6 +98,95 @@
 /* Estilos para el texto */
 .items a span {
     display: block;
-    padding: 10px 0;
+    padding: 5px 0;
     background-color: #f8f9fa;
+}
+
+
+.next-section {
+    margin-top: 10px; /* Espacio entre la caja y la siguiente sección */
+    text-align: center;
+}
+
+.next-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.next-section p {
+    font-size: 16px;
+    color: #666;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item {
+    text-align: center;
+    padding: 10px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+    width: 100px; /* Imagen más pequeña */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.grid-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.marquee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.marquee-inner {
+    display: flex;
+    animation: marquee 20s linear infinite;
+}
+
+.marquee-item {
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+.marquee-item img {
+    width: 100px; /* Imagen más pequeña */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.marquee-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
