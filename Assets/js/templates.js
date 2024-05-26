@@ -1,4 +1,11 @@
 const templates = {
+	fakestore: (products) => `<h3>${character.name}</h3>
+	<img
+		src=${character.imageUrl}
+		alt="${character.name}"
+	/>
+	<h5>Aparece en: ${character.film ? character.films.join(', ') : 'No hay datos'}</h5>
+	<h6><a href=${character.sourceUrl}>Más info</a></h6>`
     disney: (character) => `<h3>${character.name}</h3>
 					<img
 						src=${character.imageUrl}
